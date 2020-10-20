@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/ListaFrutas"
+        android:layout_width="285dp"
+        android:layout_height="421dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:cacheColorHint="#7C45DD"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="118dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/Titulo"
+        android:layout_width="189dp"
+        android:layout_height="55dp"
+        android:fontFamily="sans-serif-black"
+        android:text="FruitWorld"
+        android:textAlignment="center"
+        android:textColor="#562AA3"
+        android:textSize="36sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:gravity="center_horizontal" />
+</androidx.constraintlayout.widget.ConstraintLayout>
